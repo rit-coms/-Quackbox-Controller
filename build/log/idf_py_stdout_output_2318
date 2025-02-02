@@ -1,0 +1,49 @@
+-- IDF_TARGET is not set, guessed 'esp32c6' from sdkconfig '/home/sm9276/esp/hello_world/sdkconfig'
+-- Found Git: /usr/bin/git (found version "2.48.1")
+-- The C compiler identification is GNU 14.2.0
+-- The CXX compiler identification is GNU 14.2.0
+-- The ASM compiler identification is GNU
+-- Found assembler: /home/sm9276/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/riscv32-esp-elf-gcc
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /home/sm9276/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/riscv32-esp-elf-gcc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /home/sm9276/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/riscv32-esp-elf-g++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- git rev-parse returned 'fatal: not a git repository (or any of the parent directories): .git'
+-- Could not use 'git describe' to determine PROJECT_VER.
+-- Building ESP-IDF components for target esp32c6
+-- Project sdkconfig file /home/sm9276/esp/hello_world/sdkconfig
+-- Adding linker script /home/sm9276/esp/esp-idf/components/riscv/ld/rom.api.ld
+-- Found Python3: /home/sm9276/.espressif/python_env/idf5.4_py3.13_env/bin/python (found version "3.13.1") found components: Interpreter
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE
+-- Performing Test C_COMPILER_SUPPORTS_WFORMAT_SIGNEDNESS
+-- Performing Test C_COMPILER_SUPPORTS_WFORMAT_SIGNEDNESS - Success
+-- App "hello_world" version: 1
+-- Adding linker script /home/sm9276/esp/hello_world/build/esp-idf/esp_system/ld/memory.ld
+-- Adding linker script /home/sm9276/esp/hello_world/build/esp-idf/esp_system/ld/sections.ld.in
+-- Adding linker script /home/sm9276/esp/esp-idf/components/esp_rom/esp32c6/ld/esp32c6.rom.ld
+-- Adding linker script /home/sm9276/esp/esp-idf/components/esp_rom/esp32c6/ld/esp32c6.rom.api.ld
+-- Adding linker script /home/sm9276/esp/esp-idf/components/esp_rom/esp32c6/ld/esp32c6.rom.rvfp.ld
+-- Adding linker script /home/sm9276/esp/esp-idf/components/esp_rom/esp32c6/ld/esp32c6.rom.wdt.ld
+-- Adding linker script /home/sm9276/esp/esp-idf/components/esp_rom/esp32c6/ld/esp32c6.rom.systimer.ld
+-- Adding linker script /home/sm9276/esp/esp-idf/components/esp_rom/esp32c6/ld/esp32c6.rom.version.ld
+-- Adding linker script /home/sm9276/esp/esp-idf/components/esp_rom/esp32c6/ld/esp32c6.rom.phy.ld
+-- Adding linker script /home/sm9276/esp/esp-idf/components/esp_rom/esp32c6/ld/esp32c6.rom.coexist.ld
+-- Adding linker script /home/sm9276/esp/esp-idf/components/esp_rom/esp32c6/ld/esp32c6.rom.net80211.ld
+-- Adding linker script /home/sm9276/esp/esp-idf/components/esp_rom/esp32c6/ld/esp32c6.rom.pp.ld
+-- Adding linker script /home/sm9276/esp/esp-idf/components/esp_rom/esp32c6/ld/esp32c6.rom.newlib.ld
+-- Adding linker script /home/sm9276/esp/esp-idf/components/esp_rom/esp32c6/ld/esp32c6.rom.newlib-normal.ld
+-- Adding linker script /home/sm9276/esp/esp-idf/components/esp_rom/esp32c6/ld/esp32c6.rom.heap.ld
+-- Adding linker script /home/sm9276/esp/esp-idf/components/soc/esp32c6/ld/esp32c6.peripherals.ld
+-- Components: app_trace app_update bootloader bootloader_support bt cmock console cxx driver efuse esp-tls esp_adc esp_app_format esp_bootloader_format esp_coex esp_common esp_driver_ana_cmpr esp_driver_cam esp_driver_dac esp_driver_gpio esp_driver_gptimer esp_driver_i2c esp_driver_i2s esp_driver_isp esp_driver_jpeg esp_driver_ledc esp_driver_mcpwm esp_driver_parlio esp_driver_pcnt esp_driver_ppa esp_driver_rmt esp_driver_sdio esp_driver_sdm esp_driver_sdmmc esp_driver_sdspi esp_driver_spi esp_driver_touch_sens esp_driver_tsens esp_driver_uart esp_driver_usb_serial_jtag esp_eth esp_event esp_gdbstub esp_hid esp_http_client esp_http_server esp_https_ota esp_https_server esp_hw_support esp_lcd esp_local_ctrl esp_mm esp_netif esp_netif_stack esp_partition esp_phy esp_pm esp_psram esp_ringbuf esp_rom esp_security esp_system esp_timer esp_vfs_console esp_wifi espcoredump esptool_py fatfs freertos hal heap http_parser idf_test ieee802154 json log lwip main mbedtls mqtt newlib nvs_flash nvs_sec_provider openthread partition_table protobuf-c protocomm pthread riscv rt sdmmc soc spi_flash spiffs tcp_transport ulp unity usb vfs wear_levelling wifi_provisioning wpa_supplicant
+-- Component paths: /home/sm9276/esp/esp-idf/components/app_trace /home/sm9276/esp/esp-idf/components/app_update /home/sm9276/esp/esp-idf/components/bootloader /home/sm9276/esp/esp-idf/components/bootloader_support /home/sm9276/esp/esp-idf/components/bt /home/sm9276/esp/esp-idf/components/cmock /home/sm9276/esp/esp-idf/components/console /home/sm9276/esp/esp-idf/components/cxx /home/sm9276/esp/esp-idf/components/driver /home/sm9276/esp/esp-idf/components/efuse /home/sm9276/esp/esp-idf/components/esp-tls /home/sm9276/esp/esp-idf/components/esp_adc /home/sm9276/esp/esp-idf/components/esp_app_format /home/sm9276/esp/esp-idf/components/esp_bootloader_format /home/sm9276/esp/esp-idf/components/esp_coex /home/sm9276/esp/esp-idf/components/esp_common /home/sm9276/esp/esp-idf/components/esp_driver_ana_cmpr /home/sm9276/esp/esp-idf/components/esp_driver_cam /home/sm9276/esp/esp-idf/components/esp_driver_dac /home/sm9276/esp/esp-idf/components/esp_driver_gpio /home/sm9276/esp/esp-idf/components/esp_driver_gptimer /home/sm9276/esp/esp-idf/components/esp_driver_i2c /home/sm9276/esp/esp-idf/components/esp_driver_i2s /home/sm9276/esp/esp-idf/components/esp_driver_isp /home/sm9276/esp/esp-idf/components/esp_driver_jpeg /home/sm9276/esp/esp-idf/components/esp_driver_ledc /home/sm9276/esp/esp-idf/components/esp_driver_mcpwm /home/sm9276/esp/esp-idf/components/esp_driver_parlio /home/sm9276/esp/esp-idf/components/esp_driver_pcnt /home/sm9276/esp/esp-idf/components/esp_driver_ppa /home/sm9276/esp/esp-idf/components/esp_driver_rmt /home/sm9276/esp/esp-idf/components/esp_driver_sdio /home/sm9276/esp/esp-idf/components/esp_driver_sdm /home/sm9276/esp/esp-idf/components/esp_driver_sdmmc /home/sm9276/esp/esp-idf/components/esp_driver_sdspi /home/sm9276/esp/esp-idf/components/esp_driver_spi /home/sm9276/esp/esp-idf/components/esp_driver_touch_sens /home/sm9276/esp/esp-idf/components/esp_driver_tsens /home/sm9276/esp/esp-idf/components/esp_driver_uart /home/sm9276/esp/esp-idf/components/esp_driver_usb_serial_jtag /home/sm9276/esp/esp-idf/components/esp_eth /home/sm9276/esp/esp-idf/components/esp_event /home/sm9276/esp/esp-idf/components/esp_gdbstub /home/sm9276/esp/esp-idf/components/esp_hid /home/sm9276/esp/esp-idf/components/esp_http_client /home/sm9276/esp/esp-idf/components/esp_http_server /home/sm9276/esp/esp-idf/components/esp_https_ota /home/sm9276/esp/esp-idf/components/esp_https_server /home/sm9276/esp/esp-idf/components/esp_hw_support /home/sm9276/esp/esp-idf/components/esp_lcd /home/sm9276/esp/esp-idf/components/esp_local_ctrl /home/sm9276/esp/esp-idf/components/esp_mm /home/sm9276/esp/esp-idf/components/esp_netif /home/sm9276/esp/esp-idf/components/esp_netif_stack /home/sm9276/esp/esp-idf/components/esp_partition /home/sm9276/esp/esp-idf/components/esp_phy /home/sm9276/esp/esp-idf/components/esp_pm /home/sm9276/esp/esp-idf/components/esp_psram /home/sm9276/esp/esp-idf/components/esp_ringbuf /home/sm9276/esp/esp-idf/components/esp_rom /home/sm9276/esp/esp-idf/components/esp_security /home/sm9276/esp/esp-idf/components/esp_system /home/sm9276/esp/esp-idf/components/esp_timer /home/sm9276/esp/esp-idf/components/esp_vfs_console /home/sm9276/esp/esp-idf/components/esp_wifi /home/sm9276/esp/esp-idf/components/espcoredump /home/sm9276/esp/esp-idf/components/esptool_py /home/sm9276/esp/esp-idf/components/fatfs /home/sm9276/esp/esp-idf/components/freertos /home/sm9276/esp/esp-idf/components/hal /home/sm9276/esp/esp-idf/components/heap /home/sm9276/esp/esp-idf/components/http_parser /home/sm9276/esp/esp-idf/components/idf_test /home/sm9276/esp/esp-idf/components/ieee802154 /home/sm9276/esp/esp-idf/components/json /home/sm9276/esp/esp-idf/components/log /home/sm9276/esp/esp-idf/components/lwip /home/sm9276/esp/hello_world/main /home/sm9276/esp/esp-idf/components/mbedtls /home/sm9276/esp/esp-idf/components/mqtt /home/sm9276/esp/esp-idf/components/newlib /home/sm9276/esp/esp-idf/components/nvs_flash /home/sm9276/esp/esp-idf/components/nvs_sec_provider /home/sm9276/esp/esp-idf/components/openthread /home/sm9276/esp/esp-idf/components/partition_table /home/sm9276/esp/esp-idf/components/protobuf-c /home/sm9276/esp/esp-idf/components/protocomm /home/sm9276/esp/esp-idf/components/pthread /home/sm9276/esp/esp-idf/components/riscv /home/sm9276/esp/esp-idf/components/rt /home/sm9276/esp/esp-idf/components/sdmmc /home/sm9276/esp/esp-idf/components/soc /home/sm9276/esp/esp-idf/components/spi_flash /home/sm9276/esp/esp-idf/components/spiffs /home/sm9276/esp/esp-idf/components/tcp_transport /home/sm9276/esp/esp-idf/components/ulp /home/sm9276/esp/esp-idf/components/unity /home/sm9276/esp/esp-idf/components/usb /home/sm9276/esp/esp-idf/components/vfs /home/sm9276/esp/esp-idf/components/wear_levelling /home/sm9276/esp/esp-idf/components/wifi_provisioning /home/sm9276/esp/esp-idf/components/wpa_supplicant
+-- Configuring done (7.5s)
+-- Generating done (1.0s)
+-- Build files have been written to: /home/sm9276/esp/hello_world/build
