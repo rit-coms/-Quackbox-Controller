@@ -35,7 +35,3 @@ We welcome contributions to improve the COMStroller and its components. If you h
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
-
-## Contact
-
-For any questions or inquiries, please contact the project maintainers at [email@example.com](mailto:email@example.com).
